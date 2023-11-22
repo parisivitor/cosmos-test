@@ -18,11 +18,11 @@ docker-compose up --build -d
 ```
 Acesse o contêiner da aplicação.
 ```
-docker exec -it cosmos_test /bin/bash
+docker exec -it cosmobots_test /bin/bash
 ```
 Uma vez dentro do contêiner, execute o aplicativo Python.
 ```
-node cosmos_test.js
+node cosmobots_test.js
 ```
 
 ## Author

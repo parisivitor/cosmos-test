@@ -76,14 +76,14 @@ function objectStringCount(object){
 }
 
 object = {
-    cosmos: "uma empresa",
+    cosmobots: "uma empresa",
     empresa: "uma empresa",
-    sucesso: "cosmos",
-    lider: "cosmos",
+    sucesso: "cosmobots",
+    lider: "cosmobots",
     "uma empresa": "typescript"
 
 }
-assert.strictEqual(objectStringCount(object).cosmos, 3);
+assert.strictEqual(objectStringCount(object).cosmobots, 3);
 assert.strictEqual(objectStringCount(object)["uma empresa"], 3);
 assert.strictEqual(objectStringCount(object).empresa, 1);
 assert.strictEqual(objectStringCount(object).typescript, 1);
