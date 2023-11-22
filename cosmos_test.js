@@ -106,4 +106,4 @@ assert.strictEqual(result.sucesso, 1)
 assert.strictEqual(result["sem muito tempo"], 2)
 assert.strictEqual(result["com muito tempo"], 1)
 
-console.log("Zero erros referente a quantidade de strings por objetos pares")
+console.log("Zero erros referente a quantidade de strings por objetos")

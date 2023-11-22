@@ -6,6 +6,8 @@ Este guia fornece instruções passo a passo para executar a aplicação utiliza
 
 ```
 git clone https://github.com/parisivitor/cosmos-test
+```
+```
 cd cosmos-test
 ```
 
